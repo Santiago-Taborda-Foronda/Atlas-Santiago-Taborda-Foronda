@@ -184,16 +184,29 @@ span{
     cursor: pointer;
     color: rgb(0, 0, 0);
   }
-  /*
+  
   .company{
-    width: 100%;
-    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1vh;
     background-color: #dfdcdc;
+   
   }
   .company-img{
-    position: relative;
-    left: 80px;
+    display: flex;
+   justify-content: space-evenly;
+    padding: 2vh;
+    margin: 3ch;
+    background-color: #dfdcdc;
+    
   }
+.client {
+      display: flex;
+    justify-content: space-evenly;
+    padding: 2vh;
+    background-color: #dfdcdc;
+}
+  /*
   .client{
     margin: 30px;
     margin-right: 110px;
