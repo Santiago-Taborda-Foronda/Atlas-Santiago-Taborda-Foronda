@@ -72,7 +72,7 @@ body{
 }
 .titulo2{
   font-size: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
 }
 .tercerTitulo{
   padding: 30px 100px;
@@ -316,12 +316,229 @@ footer{
 
     
    }
-   .icon{
+.icon{
     background-color: #fff;
     margin: 5px;
     border-radius: 60%;
     border: none;
     padding: 5px 7px;
     border-color: rgb(2, 6, 31)
+}
+
+@media screen and (max-width: 1279px){
+     .company{
+      display: flex;
+      justify-content: space-around;
+      padding: 1vh;
+      background-color: #dfdcdc;
+   
+  }
+
+  .word{
+    font-family:sans-serif;
+    font-size:  48px;
+  }
+  .client {
+    margin: 20px;
+    margin-right: 30px;
    }
+   
+  }
+
+  @media screen and (max-width: 920px){
+    .inicio{
+      background-image: url("../assets/images/banner-bk.jpg");
+      padding: 50px;
+      background-size: cover;
+      background-repeat: no-repeat;
+     background-position: center;
+     color: rgb(255, 255, 255);
+    }
+    .company{
+     display: flex;
+     justify-content: space-between;
+     padding: 1vh;
+     background-color:  #dfdcdc;
+ }
+
+ .atla{
+  display: flex;
+  margin: 20px;
+  justify-content: space-between;
+}
+ .atla div, .atla img{
+  width: 55%;
+  height: 30%;
+
+}
+
+.titulo2{
+  font-size: 37px;
+  font-family: Arial, sans-serif;
+}
+
+
+ .word{
+   font-family:sans-serif;
+   font-size:  37px;
+ }
+ .client {
+   margin: 5px;
+   margin-right: 10px;
+  }
+
+  .h1-3{
+    font-size: 2rem;
+    margin: 0px, 20px;
+  }
+  .texts{
+    max-width:80% ;
+    margin: 50px;
+    justify-content: flex-start;
+    text-align: justify;
+    }
+  
+ }
+
+ @media screen and (max-width: 768px){
+  .inicio{
+    background-image: url("../assets/images/banner-bk.jpg");
+    padding: 50px;
+    background-size: cover;
+    background-repeat: no-repeat;
+   background-position: center;
+   color: rgb(255, 255, 255);
+  }
+
+
+.atla{
+display: flex;
+margin: 40px, 10px, 0;
+
+}
+.atla div, .atla img{
+width: 55%;
+height: 50%;
+
+}
+
+.titulo2{
+font-size: 37px;
+font-family: Arial, sans-serif;
+}
+
+.titulo2{
+  margin: 10px;
+}
+.word{
+ font-family:sans-serif;
+ font-size:  30px;
+}
+
+.container1{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin-top: 80px;
+    
+}
+.container2{
+    text-align: center;
+    margin: 30px 50px;
+    max-width: 300px;
+    right: 70px;
+    left: -500px;
+}
+span{
+ font-size: 80px;
+}
+.container2 button{
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    padding: 10px 30px;
+    border-radius: 40px;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(2, 6, 31);
+  }
+.color_container{
+  display: flex;
+  background-color: rgb(2, 6, 31);
+  border-radius: 1%;
+  color: white;
+  width: 300px;
+  height: 450px;
+  align-content: space-between;
+  justify-content: center;
+}
+  .container3{
+    text-align: center;
+    margin: 30px 50px;
+    max-width: 300px;
+  }
+  
+  .container3 button{
+    margin: 20px;
+    padding: 11px 35px;
+    border-radius: 40px;
+    cursor: pointer; 
+    border: none;
+    background-color: rgb(0, 247, 164);
+    color: rgb(2, 6, 31);
+
+   
+  }
+  
+  .container4{
+    text-align: center;
+    margin: 30px 10px;
+    max-width: 300px;
+   
+  }
+  
+  .container4 button{
+    text-align: center;
+    background-color:rgb(255, 255, 255) ;
+    padding: 10px 30px;
+    border-radius: 40px;
+    list-style: none;
+    cursor: pointer;
+    color: rgb(2, 6, 31)
+  }
+
+  .company{
+    display: flex;
+    align-content: space-evenly;
+    flex-wrap: nowrap;
+    background-color:  #dfdcdc;
+ }
+
+.client {
+   margin: 29px;
+
+}
+
+.h1-3{
+  font-size: 150%;
+  margin: 0px, 10px;
+}
+.texts{
+  max-width:80% ;
+  margin: 60px;
+  justify-content: flex-start;
+  text-align: justify;
+  }
+
+  .form {
+    background-color: transparent;
+    margin: 15px;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 420px;
+    width: 50%;
+  }
+
+}
+
 
