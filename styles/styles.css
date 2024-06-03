@@ -869,9 +869,9 @@ footer{
 
 }
 
-@media screen and (max-width: 352px){
+@media screen and (max-width: 380px){
   .inicio{
-    width: 71%;
+    width: 72%;
     padding: 50px;
   }
 
