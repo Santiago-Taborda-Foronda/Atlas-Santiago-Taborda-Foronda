@@ -529,9 +529,9 @@ span{
 
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 480px){
   .inicio{
-    width: 91%;
+    width: 79%;
     padding: 50px;
   }
 
@@ -578,12 +578,14 @@ span{
   }
   .list {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 20px, 40px;
     margin-top: 10px;
   }
   .alo {
+    width: 95%;
     margin: 30px 0px;
-    max-width: 150px;
+   
   }
 
   .titulo2{
@@ -591,8 +593,8 @@ span{
     font-family: Arial, sans-serif;
   }
   .tercerTitulo{
-    width: 100%;
-    padding: 30px 30px;
+    width: 87%;
+    padding: 30px 25px;
     text-align:left;
     background: linear-gradient(160deg, #fff 50%, #39ff9f 0);
   
@@ -624,7 +626,7 @@ font-family: Arial, sans-serif;
 
 .pricing {
   width: 90%;
-  padding: 55px;
+  padding: 24px;
   text-align: center;
 }
 
@@ -661,16 +663,16 @@ font-family: Arial, sans-serif;
   }
 
   .company{
-    width: 111%;
+    width: 98%;
  }
 
 .client {
-   margin: 50px;
+   margin: 30px;
 }
 
 .section-3{
   height: auto;
-  width: 113%;
+  width: 100%;
   flex-direction: column;
 }
 
@@ -689,7 +691,7 @@ font-family: Arial, sans-serif;
   }
 
 footer{
-  width: 113%;
+  width: 100%;
   }
 
 }
