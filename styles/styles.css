@@ -529,7 +529,7 @@ span{
 
 }
 
-@media screen and (max-width: 490px){
+@media screen and (max-width: 500px){
   .inicio{
     width: 91%;
     padding: 50px;
