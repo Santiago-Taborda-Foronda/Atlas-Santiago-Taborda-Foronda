@@ -187,6 +187,8 @@ span{
   }
   
   .company{
+    position: sticky;
+    bottom: 130px;
     display: flex;
     justify-content: space-evenly;
     padding: 1vh;
@@ -197,7 +199,13 @@ span{
     margin: 30px;
     margin-right: 50px;
 }
+.Posi{
+  width: 150px;
+  position: relative;
+  bottom: -85px;
+  right: 50%;
 
+}
 .section-3{
   background-image: url("../assets/images/contact-bk.jpg");
   height: 500px;
@@ -289,6 +297,8 @@ span{
   }
 
 footer{
+  position: sticky;
+  bottom: 0;
   display: flex;
   align-items: center;
   width: 100%;
